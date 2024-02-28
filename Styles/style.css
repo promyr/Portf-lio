@@ -2,9 +2,9 @@
 
 :root {
     --cor-primaria: #000000;
-    --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22D4FD;
-    --cor-hover: #272727;
+    --cor-secundaria: #8D7B68;
+    --cor-terciaria: #A4907C;
+    --cor-hover: #C8B6A6;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -95,6 +95,19 @@ body{
     padding: 0% 1% 25% 0%;
 
 }
+
+.lista-curriculo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
